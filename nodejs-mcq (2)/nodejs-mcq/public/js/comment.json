@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "comment": "comment 1",
+        "reply": [
+            "reply 1", "reply 2", "reply 3"
+        ]
+    },
+    {
+        "id": 2,
+        "comment": "comment 2",
+        "reply": [
+            "2 reply 1", "2 reply 2", "3 reply 3"
+        ]
+    }
+
+]

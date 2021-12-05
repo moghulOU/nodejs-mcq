@@ -1,0 +1,141 @@
+html, body{
+    background-color: white;
+}
+html{
+    margin-bottom: 0;
+    
+}
+.navbar{
+    background-color: black;
+    padding-bottom: 20px;
+    height: 80px;
+}
+.link-title{
+    text-decoration: none;
+    color: black
+}
+.navbar div{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+#my_name{
+    float: left;
+    margin-left: 15px;
+    color: white;
+}
+#nav-menu{
+    float: right;
+}
+#nav-menu a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-right: 10px;
+    padding: 6px 10px
+}
+ul li{
+    list-style-type: none;
+}
+/* #fav-book{
+    width: 50%;
+    margin: 0 auto;
+} */
+.blog-header{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.blog {
+    width: 80%;
+    margin: 0 auto;
+}
+.blog-media {
+    width:560px;
+    height:315px;
+    margin: 0 auto;
+}
+.blog-media iframe{
+    width: 100%;
+    height: 100%;
+}
+.blog-container{
+    width: 100%;
+}
+.blog-comments{
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(228, 213, 213);
+}
+.comment-heading {
+    text-align: center;
+}
+#comment-btn {
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+}
+.comment-form, .reply-form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.comment-form textarea{
+    width: 100%;
+    min-height: 100px;
+}
+.reply-form textarea{
+    width: 100%;
+    min-height: 50px;
+}
+.comment-form button, .reply-form button {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+.blog-comment {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.comment-wrap{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.comment-img {
+    width: 100px;
+    height: 100px;
+}
+.reply-img {
+    width: 40px;
+    height: 40px;
+}
+.comment-wrap p{
+    padding: 0 20px;
+}
+.comment-reply {
+    width: 80%;
+    margin-left:auto;
+}
+.footer{
+    background-color: black !important;
+    margin-bottom: 0;
+    height: 80px;
+    padding-top: 10px;
+    /* width: 100% */
+    
+}
+.footer p{
+    color: white
+}

@@ -1,0 +1,55 @@
+
+html, body{
+    background-color: aqua;
+}
+html{
+    margin-bottom: 0;
+    
+}
+body{
+    /* width: 70%; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar{
+    background-color: white;
+    padding-bottom: 20px;
+    height: 80px;
+}
+
+.navbar div{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+#my_name{
+    float: left;
+    margin-left: 15px;
+}
+#nav-menu{
+    float: right;
+}
+#nav-menu a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-right: 10px;
+    padding: 6px 10px
+}
+#my_Img{
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: black !important;
+    margin-bottom: 0;
+    height: 80px;
+    padding-top: 10px;
+}
+.footer p{
+    color: white;
+}
